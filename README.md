@@ -35,7 +35,7 @@ The NHD High Resolution is available on the NHD web-site as a shapefile or file 
 
 2. Partition the WB data into smaller chunks
 
-There are roughly about 100,000 water bodies that belong to each state. Obtaining the NHD-WQP Dataset for such a large dataset is a costly operation. Partitioning this large data into chunks (each chunk contains at most 1000 water bodies) eases the processing of it in later steps. For this, run the notebook partitioning_wb_chunks_size_1000.ipynb. This notebook partitions the WB data stored in the previous step into chunks of size at most 1000 and stores these data chunks locally in the path Partitioned/Partitioned-DFS-state.
+There are roughly about 100,000 water bodies that belong to each state. Obtaining the NHD-WQP Dataset for such a large dataset is a costly operation. Partitioning this large data into chunks (each chunk contains at most 1000 water bodies) eases the processing of it in later steps. For this, run the notebook <b>partitioning_wb_chunks_size_1000.ipynb</b>. This notebook partitions the WB data stored in the previous step into chunks of size at most 1000 and stores these data chunks locally in the path Partitioned/Partitioned-DFS-state.
 
 
 
@@ -43,8 +43,8 @@ There are roughly about 100,000 water bodies that belong to each state. Obtainin
 
 In this step run the notebooks download_data_state.ipynb and nhd_to_wqp_process10.ipynb. 
 
-The notebook download_data_state.ipynb iterates through the folder containing the partitioned data chunks and passes as input, a list of 10 chunks file paths each time to the script nhd_to_wqp_process10.py internally.
+The notebook <b>download_data_state.ipynb</b> iterates through the folder containing the partitioned data chunks and passes as input, a list of 10 chunks file paths each time to the script nhd_to_wqp_process10.py internally.
 
-The notebook nhd_to_wqp_process10.ipynb generates the NHD-WQP Dataset parallelly for the water bodies in those 10 chunks.
+The notebook <b>nhd_to_wqp_process10.ipynb</b> generates the <i>NHD-WQP Dataset</i> parallelly for the water bodies in those 10 chunks.
 
 
