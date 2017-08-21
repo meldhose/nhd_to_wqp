@@ -1,8 +1,8 @@
 # sites_extractor_from_water-body
 
-This package contains scripts to retrieve site IDs and other site information (locations where samples were collected) for water bodies (WB) from states in the United States. 
+This package contains scripts to retrieve site IDs and other site information (locations where samples were collected) for water bodies (WB) from a state in the United States. 
 
-It captures this WB to sites mapping in 6 csv files (NHD-WQP Dataset). These 6 tables hold the WB and their metadata, the bounding boxes and their metadata, the sites and their metadata, and the relationships among the WB, the bounding boxes, and the sites. It also captures things like the distance from a site to the edge of a WB, whether the site is inside or outside the WB etc.
+It captures this WB to sites mapping in 6 csv files (<i>NHD-WQP Dataset</i>). These 6 tables hold the WB and their metadata, the bounding boxes and their metadata, the sites and their metadata, and the relationships among the WB, the bounding boxes, and the sites. It also captures things like the distance from a site to the edge of a WB, whether the site is inside or outside the WB etc.
 
 
 The NHD (https://nhd.usgs.gov/NHD_High_Resolution.html) is digital geospatial dataset that maps the surface water of US. It represents the water drainage network of the US with features such as rivers, streams, canals, lakes, ponds, coastline, dams, and stream gages.
@@ -11,7 +11,7 @@ Details of water bodies in each state are obtained from NHD.
 The Water Quality Data Portal (https://www.waterqualitydata.us/) provides an effortless way to access data stored in various large water quality databases. The site information is retrieved from here for each water body. 
 
 
-## NHD-WQP Dataset ##
+## <i>NHD-WQP Dataset</i> ##
 
 The 6 csv files generated in the dataset are: 
 
